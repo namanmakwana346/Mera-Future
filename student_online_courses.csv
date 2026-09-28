@@ -1,0 +1,121 @@
+course_id,course_name,provider,career_path,skill,level,duration_hours,mode,certificate_available,course_url
+C001,Python for Data Analyst - Beginner,Coursera,Data Analyst,Python,Beginner,11,Online Self-Paced,Yes,https://example.com/course/C001
+C002,SQL for Data Scientist - Intermediate,edX,Data Scientist,SQL,Intermediate,14,Online Live,Yes,https://example.com/course/C002
+C003,Pandas for ML Engineer - Advanced,Udemy,ML Engineer,Pandas,Advanced,17,Online Self-Paced,Yes,https://example.com/course/C003
+C004,NumPy for AI Engineer - Beginner,IBM,AI Engineer,NumPy,Beginner,20,Online Self-Paced,Yes,https://example.com/course/C004
+C005,Statistics for Python Developer - Intermediate,Microsoft,Python Developer,Statistics,Intermediate,23,Online Live,Yes,https://example.com/course/C005
+C006,Machine Learning for Software Developer - Advanced,Google,Software Developer,Machine Learning,Advanced,26,Online Self-Paced,Yes,https://example.com/course/C006
+C007,Scikit-learn for Web Developer - Beginner,AWS,Web Developer,Scikit-learn,Beginner,29,Online Self-Paced,Yes,https://example.com/course/C007
+C008,Deep Learning for Cloud Engineer - Intermediate,Cisco,Cloud Engineer,Deep Learning,Intermediate,32,Online Live,Yes,https://example.com/course/C008
+C009,TensorFlow for DevOps Engineer - Advanced,Oracle,DevOps Engineer,TensorFlow,Advanced,35,Online Self-Paced,Yes,https://example.com/course/C009
+C010,PyTorch for Cyber Security Analyst - Beginner,NPTEL,Cyber Security Analyst,PyTorch,Beginner,38,Online Self-Paced,Yes,https://example.com/course/C010
+C011,Data Visualization for Database Administrator - Intermediate,Coursera,Database Administrator,Data Visualization,Intermediate,41,Online Live,Yes,https://example.com/course/C011
+C012,Power BI for Business Analyst - Advanced,edX,Business Analyst,Power BI,Advanced,44,Online Self-Paced,Yes,https://example.com/course/C012
+C013,Excel for UI UX Designer - Beginner,Udemy,UI UX Designer,Excel,Beginner,47,Online Self-Paced,Yes,https://example.com/course/C013
+C014,Java for Power BI Developer - Intermediate,IBM,Power BI Developer,Java,Intermediate,50,Online Live,Yes,https://example.com/course/C014
+C015,C++ for Full Stack Developer - Advanced,Microsoft,Full Stack Developer,C++,Advanced,10,Online Self-Paced,Yes,https://example.com/course/C015
+C016,JavaScript for Data Analyst - Beginner,Google,Data Analyst,JavaScript,Beginner,13,Online Self-Paced,Yes,https://example.com/course/C016
+C017,React for Data Scientist - Intermediate,AWS,Data Scientist,React,Intermediate,16,Online Live,Yes,https://example.com/course/C017
+C018,HTML for ML Engineer - Advanced,Cisco,ML Engineer,HTML,Advanced,19,Online Self-Paced,Yes,https://example.com/course/C018
+C019,CSS for AI Engineer - Beginner,Oracle,AI Engineer,CSS,Beginner,22,Online Self-Paced,Yes,https://example.com/course/C019
+C020,Node.js for Python Developer - Intermediate,NPTEL,Python Developer,Node.js,Intermediate,25,Online Live,Yes,https://example.com/course/C020
+C021,Git for Software Developer - Advanced,Coursera,Software Developer,Git,Advanced,28,Online Self-Paced,Yes,https://example.com/course/C021
+C022,GitHub for Web Developer - Beginner,edX,Web Developer,GitHub,Beginner,31,Online Self-Paced,Yes,https://example.com/course/C022
+C023,AWS for Cloud Engineer - Intermediate,Udemy,Cloud Engineer,AWS,Intermediate,34,Online Live,Yes,https://example.com/course/C023
+C024,Azure for DevOps Engineer - Advanced,IBM,DevOps Engineer,Azure,Advanced,37,Online Self-Paced,Yes,https://example.com/course/C024
+C025,Docker for Cyber Security Analyst - Beginner,Microsoft,Cyber Security Analyst,Docker,Beginner,40,Online Self-Paced,Yes,https://example.com/course/C025
+C026,Kubernetes for Database Administrator - Intermediate,Google,Database Administrator,Kubernetes,Intermediate,43,Online Live,Yes,https://example.com/course/C026
+C027,Linux for Business Analyst - Advanced,AWS,Business Analyst,Linux,Advanced,46,Online Self-Paced,Yes,https://example.com/course/C027
+C028,Cyber Security for UI UX Designer - Beginner,Cisco,UI UX Designer,Cyber Security,Beginner,49,Online Self-Paced,Yes,https://example.com/course/C028
+C029,Networking for Power BI Developer - Intermediate,Oracle,Power BI Developer,Networking,Intermediate,9,Online Live,Yes,https://example.com/course/C029
+C030,MongoDB for Full Stack Developer - Advanced,NPTEL,Full Stack Developer,MongoDB,Advanced,12,Online Self-Paced,Yes,https://example.com/course/C030
+C031,PostgreSQL for Data Analyst - Beginner,Coursera,Data Analyst,PostgreSQL,Beginner,15,Online Self-Paced,Yes,https://example.com/course/C031
+C032,MySQL for Data Scientist - Intermediate,edX,Data Scientist,MySQL,Intermediate,18,Online Live,Yes,https://example.com/course/C032
+C033,UI UX for ML Engineer - Advanced,Udemy,ML Engineer,UI UX,Advanced,21,Online Self-Paced,Yes,https://example.com/course/C033
+C034,Figma for AI Engineer - Beginner,IBM,AI Engineer,Figma,Beginner,24,Online Self-Paced,Yes,https://example.com/course/C034
+C035,Tableau for Python Developer - Intermediate,Microsoft,Python Developer,Tableau,Intermediate,27,Online Live,Yes,https://example.com/course/C035
+C036,Python for Software Developer - Advanced,Google,Software Developer,Python,Advanced,30,Online Self-Paced,Yes,https://example.com/course/C036
+C037,SQL for Web Developer - Beginner,AWS,Web Developer,SQL,Beginner,33,Online Self-Paced,Yes,https://example.com/course/C037
+C038,Pandas for Cloud Engineer - Intermediate,Cisco,Cloud Engineer,Pandas,Intermediate,36,Online Live,Yes,https://example.com/course/C038
+C039,NumPy for DevOps Engineer - Advanced,Oracle,DevOps Engineer,NumPy,Advanced,39,Online Self-Paced,Yes,https://example.com/course/C039
+C040,Statistics for Cyber Security Analyst - Beginner,NPTEL,Cyber Security Analyst,Statistics,Beginner,42,Online Self-Paced,Yes,https://example.com/course/C040
+C041,Machine Learning for Database Administrator - Intermediate,Coursera,Database Administrator,Machine Learning,Intermediate,45,Online Live,Yes,https://example.com/course/C041
+C042,Scikit-learn for Business Analyst - Advanced,edX,Business Analyst,Scikit-learn,Advanced,48,Online Self-Paced,Yes,https://example.com/course/C042
+C043,Deep Learning for UI UX Designer - Beginner,Udemy,UI UX Designer,Deep Learning,Beginner,8,Online Self-Paced,Yes,https://example.com/course/C043
+C044,TensorFlow for Power BI Developer - Intermediate,IBM,Power BI Developer,TensorFlow,Intermediate,11,Online Live,Yes,https://example.com/course/C044
+C045,PyTorch for Full Stack Developer - Advanced,Microsoft,Full Stack Developer,PyTorch,Advanced,14,Online Self-Paced,Yes,https://example.com/course/C045
+C046,Data Visualization for Data Analyst - Beginner,Google,Data Analyst,Data Visualization,Beginner,17,Online Self-Paced,Yes,https://example.com/course/C046
+C047,Power BI for Data Scientist - Intermediate,AWS,Data Scientist,Power BI,Intermediate,20,Online Live,Yes,https://example.com/course/C047
+C048,Excel for ML Engineer - Advanced,Cisco,ML Engineer,Excel,Advanced,23,Online Self-Paced,Yes,https://example.com/course/C048
+C049,Java for AI Engineer - Beginner,Oracle,AI Engineer,Java,Beginner,26,Online Self-Paced,Yes,https://example.com/course/C049
+C050,C++ for Python Developer - Intermediate,NPTEL,Python Developer,C++,Intermediate,29,Online Live,Yes,https://example.com/course/C050
+C051,JavaScript for Software Developer - Advanced,Coursera,Software Developer,JavaScript,Advanced,32,Online Self-Paced,Yes,https://example.com/course/C051
+C052,React for Web Developer - Beginner,edX,Web Developer,React,Beginner,35,Online Self-Paced,Yes,https://example.com/course/C052
+C053,HTML for Cloud Engineer - Intermediate,Udemy,Cloud Engineer,HTML,Intermediate,38,Online Live,Yes,https://example.com/course/C053
+C054,CSS for DevOps Engineer - Advanced,IBM,DevOps Engineer,CSS,Advanced,41,Online Self-Paced,Yes,https://example.com/course/C054
+C055,Node.js for Cyber Security Analyst - Beginner,Microsoft,Cyber Security Analyst,Node.js,Beginner,44,Online Self-Paced,Yes,https://example.com/course/C055
+C056,Git for Database Administrator - Intermediate,Google,Database Administrator,Git,Intermediate,47,Online Live,Yes,https://example.com/course/C056
+C057,GitHub for Business Analyst - Advanced,AWS,Business Analyst,GitHub,Advanced,50,Online Self-Paced,Yes,https://example.com/course/C057
+C058,AWS for UI UX Designer - Beginner,Cisco,UI UX Designer,AWS,Beginner,10,Online Self-Paced,Yes,https://example.com/course/C058
+C059,Azure for Power BI Developer - Intermediate,Oracle,Power BI Developer,Azure,Intermediate,13,Online Live,Yes,https://example.com/course/C059
+C060,Docker for Full Stack Developer - Advanced,NPTEL,Full Stack Developer,Docker,Advanced,16,Online Self-Paced,Yes,https://example.com/course/C060
+C061,Kubernetes for Data Analyst - Beginner,Coursera,Data Analyst,Kubernetes,Beginner,19,Online Self-Paced,Yes,https://example.com/course/C061
+C062,Linux for Data Scientist - Intermediate,edX,Data Scientist,Linux,Intermediate,22,Online Live,Yes,https://example.com/course/C062
+C063,Cyber Security for ML Engineer - Advanced,Udemy,ML Engineer,Cyber Security,Advanced,25,Online Self-Paced,Yes,https://example.com/course/C063
+C064,Networking for AI Engineer - Beginner,IBM,AI Engineer,Networking,Beginner,28,Online Self-Paced,Yes,https://example.com/course/C064
+C065,MongoDB for Python Developer - Intermediate,Microsoft,Python Developer,MongoDB,Intermediate,31,Online Live,Yes,https://example.com/course/C065
+C066,PostgreSQL for Software Developer - Advanced,Google,Software Developer,PostgreSQL,Advanced,34,Online Self-Paced,Yes,https://example.com/course/C066
+C067,MySQL for Web Developer - Beginner,AWS,Web Developer,MySQL,Beginner,37,Online Self-Paced,Yes,https://example.com/course/C067
+C068,UI UX for Cloud Engineer - Intermediate,Cisco,Cloud Engineer,UI UX,Intermediate,40,Online Live,Yes,https://example.com/course/C068
+C069,Figma for DevOps Engineer - Advanced,Oracle,DevOps Engineer,Figma,Advanced,43,Online Self-Paced,Yes,https://example.com/course/C069
+C070,Tableau for Cyber Security Analyst - Beginner,NPTEL,Cyber Security Analyst,Tableau,Beginner,46,Online Self-Paced,Yes,https://example.com/course/C070
+C071,Python for Database Administrator - Intermediate,Coursera,Database Administrator,Python,Intermediate,49,Online Live,Yes,https://example.com/course/C071
+C072,SQL for Business Analyst - Advanced,edX,Business Analyst,SQL,Advanced,9,Online Self-Paced,Yes,https://example.com/course/C072
+C073,Pandas for UI UX Designer - Beginner,Udemy,UI UX Designer,Pandas,Beginner,12,Online Self-Paced,Yes,https://example.com/course/C073
+C074,NumPy for Power BI Developer - Intermediate,IBM,Power BI Developer,NumPy,Intermediate,15,Online Live,Yes,https://example.com/course/C074
+C075,Statistics for Full Stack Developer - Advanced,Microsoft,Full Stack Developer,Statistics,Advanced,18,Online Self-Paced,Yes,https://example.com/course/C075
+C076,Machine Learning for Data Analyst - Beginner,Google,Data Analyst,Machine Learning,Beginner,21,Online Self-Paced,Yes,https://example.com/course/C076
+C077,Scikit-learn for Data Scientist - Intermediate,AWS,Data Scientist,Scikit-learn,Intermediate,24,Online Live,Yes,https://example.com/course/C077
+C078,Deep Learning for ML Engineer - Advanced,Cisco,ML Engineer,Deep Learning,Advanced,27,Online Self-Paced,Yes,https://example.com/course/C078
+C079,TensorFlow for AI Engineer - Beginner,Oracle,AI Engineer,TensorFlow,Beginner,30,Online Self-Paced,Yes,https://example.com/course/C079
+C080,PyTorch for Python Developer - Intermediate,NPTEL,Python Developer,PyTorch,Intermediate,33,Online Live,Yes,https://example.com/course/C080
+C081,Data Visualization for Software Developer - Advanced,Coursera,Software Developer,Data Visualization,Advanced,36,Online Self-Paced,Yes,https://example.com/course/C081
+C082,Power BI for Web Developer - Beginner,edX,Web Developer,Power BI,Beginner,39,Online Self-Paced,Yes,https://example.com/course/C082
+C083,Excel for Cloud Engineer - Intermediate,Udemy,Cloud Engineer,Excel,Intermediate,42,Online Live,Yes,https://example.com/course/C083
+C084,Java for DevOps Engineer - Advanced,IBM,DevOps Engineer,Java,Advanced,45,Online Self-Paced,Yes,https://example.com/course/C084
+C085,C++ for Cyber Security Analyst - Beginner,Microsoft,Cyber Security Analyst,C++,Beginner,48,Online Self-Paced,Yes,https://example.com/course/C085
+C086,JavaScript for Database Administrator - Intermediate,Google,Database Administrator,JavaScript,Intermediate,8,Online Live,Yes,https://example.com/course/C086
+C087,React for Business Analyst - Advanced,AWS,Business Analyst,React,Advanced,11,Online Self-Paced,Yes,https://example.com/course/C087
+C088,HTML for UI UX Designer - Beginner,Cisco,UI UX Designer,HTML,Beginner,14,Online Self-Paced,Yes,https://example.com/course/C088
+C089,CSS for Power BI Developer - Intermediate,Oracle,Power BI Developer,CSS,Intermediate,17,Online Live,Yes,https://example.com/course/C089
+C090,Node.js for Full Stack Developer - Advanced,NPTEL,Full Stack Developer,Node.js,Advanced,20,Online Self-Paced,Yes,https://example.com/course/C090
+C091,Git for Data Analyst - Beginner,Coursera,Data Analyst,Git,Beginner,23,Online Self-Paced,Yes,https://example.com/course/C091
+C092,GitHub for Data Scientist - Intermediate,edX,Data Scientist,GitHub,Intermediate,26,Online Live,Yes,https://example.com/course/C092
+C093,AWS for ML Engineer - Advanced,Udemy,ML Engineer,AWS,Advanced,29,Online Self-Paced,Yes,https://example.com/course/C093
+C094,Azure for AI Engineer - Beginner,IBM,AI Engineer,Azure,Beginner,32,Online Self-Paced,Yes,https://example.com/course/C094
+C095,Docker for Python Developer - Intermediate,Microsoft,Python Developer,Docker,Intermediate,35,Online Live,Yes,https://example.com/course/C095
+C096,Kubernetes for Software Developer - Advanced,Google,Software Developer,Kubernetes,Advanced,38,Online Self-Paced,Yes,https://example.com/course/C096
+C097,Linux for Web Developer - Beginner,AWS,Web Developer,Linux,Beginner,41,Online Self-Paced,Yes,https://example.com/course/C097
+C098,Cyber Security for Cloud Engineer - Intermediate,Cisco,Cloud Engineer,Cyber Security,Intermediate,44,Online Live,Yes,https://example.com/course/C098
+C099,Networking for DevOps Engineer - Advanced,Oracle,DevOps Engineer,Networking,Advanced,47,Online Self-Paced,Yes,https://example.com/course/C099
+C100,MongoDB for Cyber Security Analyst - Beginner,NPTEL,Cyber Security Analyst,MongoDB,Beginner,50,Online Self-Paced,Yes,https://example.com/course/C100
+C101,PostgreSQL for Database Administrator - Intermediate,Coursera,Database Administrator,PostgreSQL,Intermediate,10,Online Live,Yes,https://example.com/course/C101
+C102,MySQL for Business Analyst - Advanced,edX,Business Analyst,MySQL,Advanced,13,Online Self-Paced,Yes,https://example.com/course/C102
+C103,UI UX for UI UX Designer - Beginner,Udemy,UI UX Designer,UI UX,Beginner,16,Online Self-Paced,Yes,https://example.com/course/C103
+C104,Figma for Power BI Developer - Intermediate,IBM,Power BI Developer,Figma,Intermediate,19,Online Live,Yes,https://example.com/course/C104
+C105,Tableau for Full Stack Developer - Advanced,Microsoft,Full Stack Developer,Tableau,Advanced,22,Online Self-Paced,Yes,https://example.com/course/C105
+C106,Python for Data Analyst - Beginner,Google,Data Analyst,Python,Beginner,25,Online Self-Paced,Yes,https://example.com/course/C106
+C107,SQL for Data Scientist - Intermediate,AWS,Data Scientist,SQL,Intermediate,28,Online Live,Yes,https://example.com/course/C107
+C108,Pandas for ML Engineer - Advanced,Cisco,ML Engineer,Pandas,Advanced,31,Online Self-Paced,Yes,https://example.com/course/C108
+C109,NumPy for AI Engineer - Beginner,Oracle,AI Engineer,NumPy,Beginner,34,Online Self-Paced,Yes,https://example.com/course/C109
+C110,Statistics for Python Developer - Intermediate,NPTEL,Python Developer,Statistics,Intermediate,37,Online Live,Yes,https://example.com/course/C110
+C111,Machine Learning for Software Developer - Advanced,Coursera,Software Developer,Machine Learning,Advanced,40,Online Self-Paced,Yes,https://example.com/course/C111
+C112,Scikit-learn for Web Developer - Beginner,edX,Web Developer,Scikit-learn,Beginner,43,Online Self-Paced,Yes,https://example.com/course/C112
+C113,Deep Learning for Cloud Engineer - Intermediate,Udemy,Cloud Engineer,Deep Learning,Intermediate,46,Online Live,Yes,https://example.com/course/C113
+C114,TensorFlow for DevOps Engineer - Advanced,IBM,DevOps Engineer,TensorFlow,Advanced,49,Online Self-Paced,Yes,https://example.com/course/C114
+C115,PyTorch for Cyber Security Analyst - Beginner,Microsoft,Cyber Security Analyst,PyTorch,Beginner,9,Online Self-Paced,Yes,https://example.com/course/C115
+C116,Data Visualization for Database Administrator - Intermediate,Google,Database Administrator,Data Visualization,Intermediate,12,Online Live,Yes,https://example.com/course/C116
+C117,Power BI for Business Analyst - Advanced,AWS,Business Analyst,Power BI,Advanced,15,Online Self-Paced,Yes,https://example.com/course/C117
+C118,Excel for UI UX Designer - Beginner,Cisco,UI UX Designer,Excel,Beginner,18,Online Self-Paced,Yes,https://example.com/course/C118
+C119,Java for Power BI Developer - Intermediate,Oracle,Power BI Developer,Java,Intermediate,21,Online Live,Yes,https://example.com/course/C119
+C120,C++ for Full Stack Developer - Advanced,NPTEL,Full Stack Developer,C++,Advanced,24,Online Self-Paced,Yes,https://example.com/course/C120

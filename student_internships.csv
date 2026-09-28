@@ -1,0 +1,121 @@
+internship_id,company,internship_role,career_path,required_skills,duration_months,stipend_inr,work_mode,eligibility_cgpa,location,application_url,data_status
+I001,TechNova Solutions,Data Analyst Intern,Data Analyst,Python; SQL,1,0,Remote,6.0,Remote,https://example.com/internship/I001,DEMO_DATA
+I002,DataBridge Labs,Data Scientist Intern,Data Scientist,Pandas; NumPy,2,5000,Hybrid,6.5,Bengaluru,https://example.com/internship/I002,DEMO_DATA
+I003,CloudSphere Technologies,ML Engineer Intern,ML Engineer,Statistics; Machine Learning,3,8000,On-site,7.0,Pune,https://example.com/internship/I003,DEMO_DATA
+I004,CyberCore Systems,AI Engineer Intern,AI Engineer,Scikit-learn; Deep Learning,6,10000,Remote,7.5,Hyderabad,https://example.com/internship/I004,DEMO_DATA
+I005,AIWorks Labs,Python Developer Intern,Python Developer,TensorFlow; PyTorch,1,15000,Hybrid,8.0,Delhi NCR,https://example.com/internship/I005,DEMO_DATA
+I006,WebStack Technologies,Software Developer Intern,Software Developer,Data Visualization; Power BI,2,20000,On-site,6.0,Indore,https://example.com/internship/I006,DEMO_DATA
+I007,FinTech Analytics,Web Developer Intern,Web Developer,Excel; Java,3,0,Remote,6.5,Mumbai,https://example.com/internship/I007,DEMO_DATA
+I008,InnoSoft Pvt Ltd,Cloud Engineer Intern,Cloud Engineer,C++; JavaScript,6,5000,Hybrid,7.0,Remote,https://example.com/internship/I008,DEMO_DATA
+I009,DigitalNext Solutions,DevOps Engineer Intern,DevOps Engineer,React; HTML,1,8000,On-site,7.5,Bengaluru,https://example.com/internship/I009,DEMO_DATA
+I010,FutureByte Labs,Cyber Security Analyst Intern,Cyber Security Analyst,CSS; Node.js,2,10000,Remote,8.0,Pune,https://example.com/internship/I010,DEMO_DATA
+I011,TechNova Solutions,Database Administrator Intern,Database Administrator,Git; GitHub,3,15000,Hybrid,6.0,Hyderabad,https://example.com/internship/I011,DEMO_DATA
+I012,DataBridge Labs,Business Analyst Intern,Business Analyst,AWS; Azure,6,20000,On-site,6.5,Delhi NCR,https://example.com/internship/I012,DEMO_DATA
+I013,CloudSphere Technologies,UI UX Designer Intern,UI UX Designer,Docker; Kubernetes,1,0,Remote,7.0,Indore,https://example.com/internship/I013,DEMO_DATA
+I014,CyberCore Systems,Power BI Developer Intern,Power BI Developer,Linux; Cyber Security,2,5000,Hybrid,7.5,Mumbai,https://example.com/internship/I014,DEMO_DATA
+I015,AIWorks Labs,Full Stack Developer Intern,Full Stack Developer,Networking; MongoDB,3,8000,On-site,8.0,Remote,https://example.com/internship/I015,DEMO_DATA
+I016,WebStack Technologies,Data Analyst Intern,Data Analyst,PostgreSQL; MySQL,6,10000,Remote,6.0,Bengaluru,https://example.com/internship/I016,DEMO_DATA
+I017,FinTech Analytics,Data Scientist Intern,Data Scientist,UI UX; Figma,1,15000,Hybrid,6.5,Pune,https://example.com/internship/I017,DEMO_DATA
+I018,InnoSoft Pvt Ltd,ML Engineer Intern,ML Engineer,Tableau; Python,2,20000,On-site,7.0,Hyderabad,https://example.com/internship/I018,DEMO_DATA
+I019,DigitalNext Solutions,AI Engineer Intern,AI Engineer,SQL; Pandas,3,0,Remote,7.5,Delhi NCR,https://example.com/internship/I019,DEMO_DATA
+I020,FutureByte Labs,Python Developer Intern,Python Developer,NumPy; Statistics,6,5000,Hybrid,8.0,Indore,https://example.com/internship/I020,DEMO_DATA
+I021,TechNova Solutions,Software Developer Intern,Software Developer,Machine Learning; Scikit-learn,1,8000,On-site,6.0,Mumbai,https://example.com/internship/I021,DEMO_DATA
+I022,DataBridge Labs,Web Developer Intern,Web Developer,Deep Learning; TensorFlow,2,10000,Remote,6.5,Remote,https://example.com/internship/I022,DEMO_DATA
+I023,CloudSphere Technologies,Cloud Engineer Intern,Cloud Engineer,PyTorch; Data Visualization,3,15000,Hybrid,7.0,Bengaluru,https://example.com/internship/I023,DEMO_DATA
+I024,CyberCore Systems,DevOps Engineer Intern,DevOps Engineer,Power BI; Excel,6,20000,On-site,7.5,Pune,https://example.com/internship/I024,DEMO_DATA
+I025,AIWorks Labs,Cyber Security Analyst Intern,Cyber Security Analyst,Java; C++,1,0,Remote,8.0,Hyderabad,https://example.com/internship/I025,DEMO_DATA
+I026,WebStack Technologies,Database Administrator Intern,Database Administrator,JavaScript; React,2,5000,Hybrid,6.0,Delhi NCR,https://example.com/internship/I026,DEMO_DATA
+I027,FinTech Analytics,Business Analyst Intern,Business Analyst,HTML; CSS,3,8000,On-site,6.5,Indore,https://example.com/internship/I027,DEMO_DATA
+I028,InnoSoft Pvt Ltd,UI UX Designer Intern,UI UX Designer,Node.js; Git,6,10000,Remote,7.0,Mumbai,https://example.com/internship/I028,DEMO_DATA
+I029,DigitalNext Solutions,Power BI Developer Intern,Power BI Developer,GitHub; AWS,1,15000,Hybrid,7.5,Remote,https://example.com/internship/I029,DEMO_DATA
+I030,FutureByte Labs,Full Stack Developer Intern,Full Stack Developer,Azure; Docker,2,20000,On-site,8.0,Bengaluru,https://example.com/internship/I030,DEMO_DATA
+I031,TechNova Solutions,Data Analyst Intern,Data Analyst,Kubernetes; Linux,3,0,Remote,6.0,Pune,https://example.com/internship/I031,DEMO_DATA
+I032,DataBridge Labs,Data Scientist Intern,Data Scientist,Cyber Security; Networking,6,5000,Hybrid,6.5,Hyderabad,https://example.com/internship/I032,DEMO_DATA
+I033,CloudSphere Technologies,ML Engineer Intern,ML Engineer,MongoDB; PostgreSQL,1,8000,On-site,7.0,Delhi NCR,https://example.com/internship/I033,DEMO_DATA
+I034,CyberCore Systems,AI Engineer Intern,AI Engineer,MySQL; UI UX,2,10000,Remote,7.5,Indore,https://example.com/internship/I034,DEMO_DATA
+I035,AIWorks Labs,Python Developer Intern,Python Developer,Figma; Tableau,3,15000,Hybrid,8.0,Mumbai,https://example.com/internship/I035,DEMO_DATA
+I036,WebStack Technologies,Software Developer Intern,Software Developer,Python; SQL,6,20000,On-site,6.0,Remote,https://example.com/internship/I036,DEMO_DATA
+I037,FinTech Analytics,Web Developer Intern,Web Developer,Pandas; NumPy,1,0,Remote,6.5,Bengaluru,https://example.com/internship/I037,DEMO_DATA
+I038,InnoSoft Pvt Ltd,Cloud Engineer Intern,Cloud Engineer,Statistics; Machine Learning,2,5000,Hybrid,7.0,Pune,https://example.com/internship/I038,DEMO_DATA
+I039,DigitalNext Solutions,DevOps Engineer Intern,DevOps Engineer,Scikit-learn; Deep Learning,3,8000,On-site,7.5,Hyderabad,https://example.com/internship/I039,DEMO_DATA
+I040,FutureByte Labs,Cyber Security Analyst Intern,Cyber Security Analyst,TensorFlow; PyTorch,6,10000,Remote,8.0,Delhi NCR,https://example.com/internship/I040,DEMO_DATA
+I041,TechNova Solutions,Database Administrator Intern,Database Administrator,Data Visualization; Power BI,1,15000,Hybrid,6.0,Indore,https://example.com/internship/I041,DEMO_DATA
+I042,DataBridge Labs,Business Analyst Intern,Business Analyst,Excel; Java,2,20000,On-site,6.5,Mumbai,https://example.com/internship/I042,DEMO_DATA
+I043,CloudSphere Technologies,UI UX Designer Intern,UI UX Designer,C++; JavaScript,3,0,Remote,7.0,Remote,https://example.com/internship/I043,DEMO_DATA
+I044,CyberCore Systems,Power BI Developer Intern,Power BI Developer,React; HTML,6,5000,Hybrid,7.5,Bengaluru,https://example.com/internship/I044,DEMO_DATA
+I045,AIWorks Labs,Full Stack Developer Intern,Full Stack Developer,CSS; Node.js,1,8000,On-site,8.0,Pune,https://example.com/internship/I045,DEMO_DATA
+I046,WebStack Technologies,Data Analyst Intern,Data Analyst,Git; GitHub,2,10000,Remote,6.0,Hyderabad,https://example.com/internship/I046,DEMO_DATA
+I047,FinTech Analytics,Data Scientist Intern,Data Scientist,AWS; Azure,3,15000,Hybrid,6.5,Delhi NCR,https://example.com/internship/I047,DEMO_DATA
+I048,InnoSoft Pvt Ltd,ML Engineer Intern,ML Engineer,Docker; Kubernetes,6,20000,On-site,7.0,Indore,https://example.com/internship/I048,DEMO_DATA
+I049,DigitalNext Solutions,AI Engineer Intern,AI Engineer,Linux; Cyber Security,1,0,Remote,7.5,Mumbai,https://example.com/internship/I049,DEMO_DATA
+I050,FutureByte Labs,Python Developer Intern,Python Developer,Networking; MongoDB,2,5000,Hybrid,8.0,Remote,https://example.com/internship/I050,DEMO_DATA
+I051,TechNova Solutions,Software Developer Intern,Software Developer,PostgreSQL; MySQL,3,8000,On-site,6.0,Bengaluru,https://example.com/internship/I051,DEMO_DATA
+I052,DataBridge Labs,Web Developer Intern,Web Developer,UI UX; Figma,6,10000,Remote,6.5,Pune,https://example.com/internship/I052,DEMO_DATA
+I053,CloudSphere Technologies,Cloud Engineer Intern,Cloud Engineer,Tableau; Python,1,15000,Hybrid,7.0,Hyderabad,https://example.com/internship/I053,DEMO_DATA
+I054,CyberCore Systems,DevOps Engineer Intern,DevOps Engineer,SQL; Pandas,2,20000,On-site,7.5,Delhi NCR,https://example.com/internship/I054,DEMO_DATA
+I055,AIWorks Labs,Cyber Security Analyst Intern,Cyber Security Analyst,NumPy; Statistics,3,0,Remote,8.0,Indore,https://example.com/internship/I055,DEMO_DATA
+I056,WebStack Technologies,Database Administrator Intern,Database Administrator,Machine Learning; Scikit-learn,6,5000,Hybrid,6.0,Mumbai,https://example.com/internship/I056,DEMO_DATA
+I057,FinTech Analytics,Business Analyst Intern,Business Analyst,Deep Learning; TensorFlow,1,8000,On-site,6.5,Remote,https://example.com/internship/I057,DEMO_DATA
+I058,InnoSoft Pvt Ltd,UI UX Designer Intern,UI UX Designer,PyTorch; Data Visualization,2,10000,Remote,7.0,Bengaluru,https://example.com/internship/I058,DEMO_DATA
+I059,DigitalNext Solutions,Power BI Developer Intern,Power BI Developer,Power BI; Excel,3,15000,Hybrid,7.5,Pune,https://example.com/internship/I059,DEMO_DATA
+I060,FutureByte Labs,Full Stack Developer Intern,Full Stack Developer,Java; C++,6,20000,On-site,8.0,Hyderabad,https://example.com/internship/I060,DEMO_DATA
+I061,TechNova Solutions,Data Analyst Intern,Data Analyst,JavaScript; React,1,0,Remote,6.0,Delhi NCR,https://example.com/internship/I061,DEMO_DATA
+I062,DataBridge Labs,Data Scientist Intern,Data Scientist,HTML; CSS,2,5000,Hybrid,6.5,Indore,https://example.com/internship/I062,DEMO_DATA
+I063,CloudSphere Technologies,ML Engineer Intern,ML Engineer,Node.js; Git,3,8000,On-site,7.0,Mumbai,https://example.com/internship/I063,DEMO_DATA
+I064,CyberCore Systems,AI Engineer Intern,AI Engineer,GitHub; AWS,6,10000,Remote,7.5,Remote,https://example.com/internship/I064,DEMO_DATA
+I065,AIWorks Labs,Python Developer Intern,Python Developer,Azure; Docker,1,15000,Hybrid,8.0,Bengaluru,https://example.com/internship/I065,DEMO_DATA
+I066,WebStack Technologies,Software Developer Intern,Software Developer,Kubernetes; Linux,2,20000,On-site,6.0,Pune,https://example.com/internship/I066,DEMO_DATA
+I067,FinTech Analytics,Web Developer Intern,Web Developer,Cyber Security; Networking,3,0,Remote,6.5,Hyderabad,https://example.com/internship/I067,DEMO_DATA
+I068,InnoSoft Pvt Ltd,Cloud Engineer Intern,Cloud Engineer,MongoDB; PostgreSQL,6,5000,Hybrid,7.0,Delhi NCR,https://example.com/internship/I068,DEMO_DATA
+I069,DigitalNext Solutions,DevOps Engineer Intern,DevOps Engineer,MySQL; UI UX,1,8000,On-site,7.5,Indore,https://example.com/internship/I069,DEMO_DATA
+I070,FutureByte Labs,Cyber Security Analyst Intern,Cyber Security Analyst,Figma; Tableau,2,10000,Remote,8.0,Mumbai,https://example.com/internship/I070,DEMO_DATA
+I071,TechNova Solutions,Database Administrator Intern,Database Administrator,Python; SQL,3,15000,Hybrid,6.0,Remote,https://example.com/internship/I071,DEMO_DATA
+I072,DataBridge Labs,Business Analyst Intern,Business Analyst,Pandas; NumPy,6,20000,On-site,6.5,Bengaluru,https://example.com/internship/I072,DEMO_DATA
+I073,CloudSphere Technologies,UI UX Designer Intern,UI UX Designer,Statistics; Machine Learning,1,0,Remote,7.0,Pune,https://example.com/internship/I073,DEMO_DATA
+I074,CyberCore Systems,Power BI Developer Intern,Power BI Developer,Scikit-learn; Deep Learning,2,5000,Hybrid,7.5,Hyderabad,https://example.com/internship/I074,DEMO_DATA
+I075,AIWorks Labs,Full Stack Developer Intern,Full Stack Developer,TensorFlow; PyTorch,3,8000,On-site,8.0,Delhi NCR,https://example.com/internship/I075,DEMO_DATA
+I076,WebStack Technologies,Data Analyst Intern,Data Analyst,Data Visualization; Power BI,6,10000,Remote,6.0,Indore,https://example.com/internship/I076,DEMO_DATA
+I077,FinTech Analytics,Data Scientist Intern,Data Scientist,Excel; Java,1,15000,Hybrid,6.5,Mumbai,https://example.com/internship/I077,DEMO_DATA
+I078,InnoSoft Pvt Ltd,ML Engineer Intern,ML Engineer,C++; JavaScript,2,20000,On-site,7.0,Remote,https://example.com/internship/I078,DEMO_DATA
+I079,DigitalNext Solutions,AI Engineer Intern,AI Engineer,React; HTML,3,0,Remote,7.5,Bengaluru,https://example.com/internship/I079,DEMO_DATA
+I080,FutureByte Labs,Python Developer Intern,Python Developer,CSS; Node.js,6,5000,Hybrid,8.0,Pune,https://example.com/internship/I080,DEMO_DATA
+I081,TechNova Solutions,Software Developer Intern,Software Developer,Git; GitHub,1,8000,On-site,6.0,Hyderabad,https://example.com/internship/I081,DEMO_DATA
+I082,DataBridge Labs,Web Developer Intern,Web Developer,AWS; Azure,2,10000,Remote,6.5,Delhi NCR,https://example.com/internship/I082,DEMO_DATA
+I083,CloudSphere Technologies,Cloud Engineer Intern,Cloud Engineer,Docker; Kubernetes,3,15000,Hybrid,7.0,Indore,https://example.com/internship/I083,DEMO_DATA
+I084,CyberCore Systems,DevOps Engineer Intern,DevOps Engineer,Linux; Cyber Security,6,20000,On-site,7.5,Mumbai,https://example.com/internship/I084,DEMO_DATA
+I085,AIWorks Labs,Cyber Security Analyst Intern,Cyber Security Analyst,Networking; MongoDB,1,0,Remote,8.0,Remote,https://example.com/internship/I085,DEMO_DATA
+I086,WebStack Technologies,Database Administrator Intern,Database Administrator,PostgreSQL; MySQL,2,5000,Hybrid,6.0,Bengaluru,https://example.com/internship/I086,DEMO_DATA
+I087,FinTech Analytics,Business Analyst Intern,Business Analyst,UI UX; Figma,3,8000,On-site,6.5,Pune,https://example.com/internship/I087,DEMO_DATA
+I088,InnoSoft Pvt Ltd,UI UX Designer Intern,UI UX Designer,Tableau; Python,6,10000,Remote,7.0,Hyderabad,https://example.com/internship/I088,DEMO_DATA
+I089,DigitalNext Solutions,Power BI Developer Intern,Power BI Developer,SQL; Pandas,1,15000,Hybrid,7.5,Delhi NCR,https://example.com/internship/I089,DEMO_DATA
+I090,FutureByte Labs,Full Stack Developer Intern,Full Stack Developer,NumPy; Statistics,2,20000,On-site,8.0,Indore,https://example.com/internship/I090,DEMO_DATA
+I091,TechNova Solutions,Data Analyst Intern,Data Analyst,Machine Learning; Scikit-learn,3,0,Remote,6.0,Mumbai,https://example.com/internship/I091,DEMO_DATA
+I092,DataBridge Labs,Data Scientist Intern,Data Scientist,Deep Learning; TensorFlow,6,5000,Hybrid,6.5,Remote,https://example.com/internship/I092,DEMO_DATA
+I093,CloudSphere Technologies,ML Engineer Intern,ML Engineer,PyTorch; Data Visualization,1,8000,On-site,7.0,Bengaluru,https://example.com/internship/I093,DEMO_DATA
+I094,CyberCore Systems,AI Engineer Intern,AI Engineer,Power BI; Excel,2,10000,Remote,7.5,Pune,https://example.com/internship/I094,DEMO_DATA
+I095,AIWorks Labs,Python Developer Intern,Python Developer,Java; C++,3,15000,Hybrid,8.0,Hyderabad,https://example.com/internship/I095,DEMO_DATA
+I096,WebStack Technologies,Software Developer Intern,Software Developer,JavaScript; React,6,20000,On-site,6.0,Delhi NCR,https://example.com/internship/I096,DEMO_DATA
+I097,FinTech Analytics,Web Developer Intern,Web Developer,HTML; CSS,1,0,Remote,6.5,Indore,https://example.com/internship/I097,DEMO_DATA
+I098,InnoSoft Pvt Ltd,Cloud Engineer Intern,Cloud Engineer,Node.js; Git,2,5000,Hybrid,7.0,Mumbai,https://example.com/internship/I098,DEMO_DATA
+I099,DigitalNext Solutions,DevOps Engineer Intern,DevOps Engineer,GitHub; AWS,3,8000,On-site,7.5,Remote,https://example.com/internship/I099,DEMO_DATA
+I100,FutureByte Labs,Cyber Security Analyst Intern,Cyber Security Analyst,Azure; Docker,6,10000,Remote,8.0,Bengaluru,https://example.com/internship/I100,DEMO_DATA
+I101,TechNova Solutions,Database Administrator Intern,Database Administrator,Kubernetes; Linux,1,15000,Hybrid,6.0,Pune,https://example.com/internship/I101,DEMO_DATA
+I102,DataBridge Labs,Business Analyst Intern,Business Analyst,Cyber Security; Networking,2,20000,On-site,6.5,Hyderabad,https://example.com/internship/I102,DEMO_DATA
+I103,CloudSphere Technologies,UI UX Designer Intern,UI UX Designer,MongoDB; PostgreSQL,3,0,Remote,7.0,Delhi NCR,https://example.com/internship/I103,DEMO_DATA
+I104,CyberCore Systems,Power BI Developer Intern,Power BI Developer,MySQL; UI UX,6,5000,Hybrid,7.5,Indore,https://example.com/internship/I104,DEMO_DATA
+I105,AIWorks Labs,Full Stack Developer Intern,Full Stack Developer,Figma; Tableau,1,8000,On-site,8.0,Mumbai,https://example.com/internship/I105,DEMO_DATA
+I106,WebStack Technologies,Data Analyst Intern,Data Analyst,Python; SQL,2,10000,Remote,6.0,Remote,https://example.com/internship/I106,DEMO_DATA
+I107,FinTech Analytics,Data Scientist Intern,Data Scientist,Pandas; NumPy,3,15000,Hybrid,6.5,Bengaluru,https://example.com/internship/I107,DEMO_DATA
+I108,InnoSoft Pvt Ltd,ML Engineer Intern,ML Engineer,Statistics; Machine Learning,6,20000,On-site,7.0,Pune,https://example.com/internship/I108,DEMO_DATA
+I109,DigitalNext Solutions,AI Engineer Intern,AI Engineer,Scikit-learn; Deep Learning,1,0,Remote,7.5,Hyderabad,https://example.com/internship/I109,DEMO_DATA
+I110,FutureByte Labs,Python Developer Intern,Python Developer,TensorFlow; PyTorch,2,5000,Hybrid,8.0,Delhi NCR,https://example.com/internship/I110,DEMO_DATA
+I111,TechNova Solutions,Software Developer Intern,Software Developer,Data Visualization; Power BI,3,8000,On-site,6.0,Indore,https://example.com/internship/I111,DEMO_DATA
+I112,DataBridge Labs,Web Developer Intern,Web Developer,Excel; Java,6,10000,Remote,6.5,Mumbai,https://example.com/internship/I112,DEMO_DATA
+I113,CloudSphere Technologies,Cloud Engineer Intern,Cloud Engineer,C++; JavaScript,1,15000,Hybrid,7.0,Remote,https://example.com/internship/I113,DEMO_DATA
+I114,CyberCore Systems,DevOps Engineer Intern,DevOps Engineer,React; HTML,2,20000,On-site,7.5,Bengaluru,https://example.com/internship/I114,DEMO_DATA
+I115,AIWorks Labs,Cyber Security Analyst Intern,Cyber Security Analyst,CSS; Node.js,3,0,Remote,8.0,Pune,https://example.com/internship/I115,DEMO_DATA
+I116,WebStack Technologies,Database Administrator Intern,Database Administrator,Git; GitHub,6,5000,Hybrid,6.0,Hyderabad,https://example.com/internship/I116,DEMO_DATA
+I117,FinTech Analytics,Business Analyst Intern,Business Analyst,AWS; Azure,1,8000,On-site,6.5,Delhi NCR,https://example.com/internship/I117,DEMO_DATA
+I118,InnoSoft Pvt Ltd,UI UX Designer Intern,UI UX Designer,Docker; Kubernetes,2,10000,Remote,7.0,Indore,https://example.com/internship/I118,DEMO_DATA
+I119,DigitalNext Solutions,Power BI Developer Intern,Power BI Developer,Linux; Cyber Security,3,15000,Hybrid,7.5,Mumbai,https://example.com/internship/I119,DEMO_DATA
+I120,FutureByte Labs,Full Stack Developer Intern,Full Stack Developer,Networking; MongoDB,6,20000,On-site,8.0,Remote,https://example.com/internship/I120,DEMO_DATA

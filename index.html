@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Future.com</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- ADD STUDENT MODAL -->
+<div id="add-student-modal" class="modal">
+    <div class="modal-content">
+
+        <div class="modal-header">
+            <h2>Add New Student</h2>
+            <button id="close-modal-btn" class="close-btn">&times;</button></div>
+
+        <form id="add-student-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" id="student-name" required></div>
+
+                <div class="form-group">
+                    <label>Date of Birth</label>
+                    <input type="date" id="student-dob"> </div>
+
+                <div class="form-group">
+                    <label>Stream</label>
+                    <input type="text" id="student-stream" placeholder="BCA">
+                </div>
+
+                <div class="form-group">
+                    <label>Semester</label>
+                    <input type="number" id="student-semester"></div>
+
+                <div class="form-group">
+                    <label>CGPA</label>
+                    <input type="number" step="0.01" id="student-cgpa"></div>
+
+                <div class="form-group">
+                    <label>Known Skills</label>
+                    <input type="text" id="student-skills"
+                           placeholder="Python, SQL, HTML"></div>
+
+                <div class="form-group">
+                    <label>Certifications</label>
+                    <input type="text" id="student-certification"> </div>
+
+                <div class="form-group">
+                    <label>Projects Completed</label>
+                    <input type="number" id="student-projects" value="0"> </div>
+
+                <div class="form-group">
+                    <label>Internship (Months)</label>
+                    <input type="number" id="student-internship" value="0"> </div>
+
+                <div class="form-group">
+                    <label>Coding Level</label>
+                    <select id="student-coding">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Preferred Domain</label>
+                    <input type="text" id="student-domain"
+                           placeholder="AI / ML"></div>
+
+                <div class="form-group">
+                    <label>Career Goal</label>
+                    <input type="text" id="student-career-goal"
+                           placeholder="AI Engineer"></div>
+
+                <div class="form-group">
+                    <label>Technical Score</label>
+                    <input type="number" id="student-technical" value="0"></div>
+
+                <div class="form-group">
+                    <label>Aptitude Score</label>
+                    <input type="number" id="student-aptitude" value="0"> </div>
+
+                <div class="form-group">
+                    <label>Problem Solving Score</label>
+                    <input type="number" id="student-problem" value="0"> </div>
+
+                <div class="form-group">
+                    <label>Communication Score</label>
+                    <input type="number" id="student-communication" value="0">
+                </div>
+
+            </div>
+
+            <button type="submit" class="register-btn">
+                Register Student
+            </button>
+        </form>
+    </div>
+</div>
+<body>
+
+<div class="app-container">
+    <aside class="sidebar">
+        <div class="logo">
+    <img src="logo.jpeg" alt="MeraFuture AI Logo" class="logo-image">
+</div>
+
+        <nav class="nav-menu">
+            <button class="nav-item active" onclick="showSection('dashboard', this)">
+                <span>📊</span>
+                Dashboard
+            </button>
+
+            <button class="nav-item" onclick="showSection('profile', this)">
+                <span>👤</span>
+                My Profile
+            </button>
+
+            <button class="nav-item" onclick="showSection('career', this)">
+                <span>🎯</span>
+                Career Recommendation
+            </button>
+
+            <button class="nav-item" onclick="showSection('skills', this)">
+                <span>🧠</span>
+                Skill Gap
+            </button>
+
+            <button class="nav-item" onclick="showSection('courses', this)">
+                <span>📚</span>
+                Courses
+            </button>
+
+            <button class="nav-item" onclick="showSection('internships', this)">
+                <span>💼</span>
+                Internships
+            </button>
+
+            <button class="nav-item" onclick="showSection('resume', this)">
+                <span>📄</span>
+                Resume
+            </button>
+
+            <button class="nav-item" onclick="showSection('readiness', this)">
+                <span>📈</span>
+                Readiness
+            </button>
+
+            <button class="nav-item" onclick="showSection('interview', this)">
+                <span>🎤</span>
+                Mock Interview
+            </button>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <div class="status-dot"></div>
+            <span>System Online</span>
+        </div>
+
+    </aside>
+
+
+    <!-- ================= MAIN ================= -->
+    <main class="main-content">
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+                <h1>Career Dashboard</h1>
+                <p>AI-powered career guidance and employability analysis</p>
+            </div>
+
+            <select id="student-selector">
+               <option value="">Select Student</option>
+            </select>
+
+            <button id="add-student-btn"class="add-student-btn">+Add Student</button>
+
+            <div class="top-profile">
+                <div class="avatar">👨‍💻</div>
+
+                <div>
+                    <strong class="profile-name">Student</strong>
+                    <small>Student</small>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- DASHBOARD -->
+        <section id="dashboard" class="content-section active-section">
+            <div class="hero">
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        🚀 AI-Powered Career Platform</span>
+
+                    <h2>
+                        Build Your Career<br>
+                        With <span>Mera Future</span> </h2>
+
+                    <p>
+                        Analyze your skills, discover suitable career paths,
+                        identify skill gaps and improve your employability. </p>
+
+                    <button class="primary-btn"
+                            onclick="showSection('career')">
+                        Explore Career → </button>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="hero-circle">
+                        🎯
+                    </div>
+                </div>
+            </div>
+
+            <!-- METRICS -->
+            <div class="section-heading">
+                <div>
+                    <h2>Career Overview</h2>
+                    <p>Your current career readiness summary</p>
+                </div>
+            </div>
+
+
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="metric-icon purple">🎯</div>
+                    <div>
+                        <span>Recommended Career</span>
+                        <strong class="profile-career">
+                            AI / ML
+                        </strong>
+                    </div>
+                </div>
+
+                <div class="metric-card">
+                    <div class="metric-icon green">📈</div>
+                    <div>
+                        <span>Readiness Score</span>
+                        <strong class="readiness-score">
+                            0%
+                        </strong>
+                    </div></div>
+
+
+                <div class="metric-card">
+                    <div class="metric-icon blue">💻</div>
+
+                    <div>
+                        <span>Technical Score</span>
+                        <strong class="technical-value">
+                            0%
+                        </strong>
+                    </div>
+                </div>
+
+
+                <div class="metric-card">
+                    <div class="metric-icon orange">🚀</div>
+
+                    <div>
+                        <span>Projects Completed</span>
+                        <strong class="projects-value">
+                            0
+                        </strong>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- QUICK ACTIONS -->
+            <div class="section-heading">
+                <div>
+                    <h2>Quick Actions</h2>
+                    <p>Explore important career tools</p>
+                </div>
+            </div>
+
+
+            <div class="quick-grid">
+                <div class="quick-card"
+                     onclick="showSection('career')">
+                    <div class="quick-icon">🎯</div>
+                    <h3>Career Recommendation</h3>
+                    <p>
+                        Discover career paths matching your profile.
+                    </p>
+                    <span>Explore →</span>
+                </div>
+
+
+                <div class="quick-card"
+                     onclick="showSection('skills')">
+                    <div class="quick-icon">🧠</div>
+                    <h3>Skill Gap Analysis</h3>
+                    <p>
+                        Find the skills you need to improve.
+                    </p>
+                    <span>Analyze →</span>
+                </div>
+
+
+                <div class="quick-card"
+                     onclick="showSection('resume')">
+                    <div class="quick-icon">📄</div>
+                    <h3>Resume Analysis</h3>
+                    <p>
+                        Check your resume score and improvements.</p>
+                    <span>Improve →</span>
+                </div>
+
+
+                <div class="quick-card"
+                     onclick="showSection('interview')">
+                    <div class="quick-icon">🎤</div>
+                    <h3>Mock Interview</h3>
+                    <p>
+                        Practice interview questions.</p>
+                    <span>Practice →</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROFILE -->
+        <section id="profile" class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2>My Profile</h2>
+                    <p>Your academic and career information</p>
+                </div>
+            </div>
+
+
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="large-avatar">
+                        👨‍💻
+                    </div>
+                    <div>
+
+                        <h2 class="profile-name">Student </h2>
+                        <span class="profile-degree">
+                            BCA </span>
+
+                        <span class="profile-career">
+                            AI/ML Engineer</span>
+                    </div>
+                </div>
+
+
+                <div class="profile-grid">
+                    <div class="info-box">
+                        <span>Stream</span>
+                        <strong class="profile-stream"> BCA</strong>
+                    </div>
+
+                    <div class="info-box">
+                        <span>Semester</span>
+                        <strong class="semester-value">
+                            -
+                        </strong>
+                    </div>
+
+                    <div class="info-box">
+                        <span>CGPA</span>
+                        <strong class="cgpa-value">
+                            0
+                        </strong>
+                    </div>
+
+                    <div class="info-box">
+                        <span>Technical Score</span>
+                        <strong class="technical-value">
+                            0%
+                        </strong>
+                    </div>
+
+                    <div class="info-box">
+                        <span>Projects</span>
+                        <strong class="projects-value">
+                            0
+                        </strong>
+                    </div>
+
+                    <div class="info-box">
+                        <span>Internship</span>
+                        <strong class="internship-value">
+                            0 months
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAREER -->
+        <section id="career" class="content-section">
+            <div class="section-heading">
+                <div>
+                    <h2>Career Recommendation</h2>
+                    <p>Career recommendation based on your profile</p>
+                </div>
+            </div>
+
+
+            <div class="career-main">
+                <div class="career-recommendation-card">
+                    <span class="recommendation-label">
+                        🎯 Recommended Career
+                    </span>
+                    <h2 class="recommended-career">
+                        AI / ML Engineer
+                    </h2>
+                    <p>
+                        Your academic profile, technical skills,
+                        interests and career goal are analyzed to
+                        identify a suitable career direction.
+                    </p>
+
+                    <div class="career-tags">
+                        <span class="career-tag preferred-domain">
+                            AI/ML
+                        </span>
+
+                        <span class="career-tag">
+                            Technology
+                        </span>
+
+                        <span class="career-tag">
+                            High Growth
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="career-info-card">
+                    <h3>Career Profile</h3>
+                    <div class="career-info-row">
+                        <span>Preferred Domain</span>
+                        <strong class="preferred-domain">
+                            AI/ML
+                        </strong>
+                    </div>
+
+
+                    <div class="career-info-row">
+                        <span>Career Goal</span>
+                        <strong class="career-goal">
+                            -
+                        </strong>
+                    </div>
+
+
+                    <div class="career-info-row">
+                        <span>Technical Level</span>
+                        <strong class="coding-level">
+                            -
+                        </strong>
+                    </div>
+
+
+                    <div class="career-info-row">
+                        <span>CGPA</span>
+                        <strong class="cgpa-value">
+                            0
+                        </strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-heading">
+                <div>
+                    <h2>Career Match</h2>
+                    <p>Other possible career directions</p>
+                </div>
+            </div>
+
+            <div class="match-grid">
+
+                <div class="match-card">
+                    <span>🤖</span>
+                    <h3>AI / ML Engineer</h3>
+                    <p>Machine learning and artificial intelligence.</p>
+                </div>
+
+                <div class="match-card">
+                    <span>📊</span>
+                    <h3>Data Analyst</h3>
+                    <p>Data analysis and business intelligence.</p>
+                </div>
+
+                <div class="match-card">
+                    <span>💻</span>
+                    <h3>Software Developer</h3>
+                    <p>Software development and programming.</p>
+                </div>
+
+                <div class="match-card">
+                    <span>🌐</span>
+                    <h3>Web Developer</h3>
+                    <p>Modern web application development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILL GAP -->
+
+        <section id="skills" class="content-section">
+            <div class="section-heading">
+
+                <div>
+                    <h2>Skill Gap Analysis</h2>
+                    <p>Understand your current and required skills</p>
+                </div>
+            </div>
+
+
+            <div class="skills-summary">
+                <div class="skill-summary-card">
+                    <span>Current Skills</span>
+                    <strong class="current-skills-count">
+                        0
+                    </strong>
+                </div>
+
+
+                <div class="skill-summary-card">
+                    <span>Skills To Learn</span>
+                    <strong class="missing-skills-count">
+                        0
+                    </strong>
+                </div>
+            </div>
+
+
+            <div class="skills-card">
+                <div class="skills-card-header">
+
+                    <div>
+                        <h3>Required Skills</h3>
+                        <p>
+                            Skills required for your recommended career
+                        </p>
+                    </div>
+                </div>
+
+
+                <div id="skills-list" class="skills-list">
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Python
+                        </div>
+
+                        <div class="skill-status learning">
+                            Learning
+                        </div>
+                    </div>
+
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Machine Learning
+                        </div>
+
+                        <div class="skill-status learning">
+                            Required
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Statistics
+                        </div>
+
+                        <div class="skill-status learning">
+                            Required
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- COURSES -->
+        <section id="courses" class="content-section">
+
+            <div class="section-heading">
+
+                <div>
+                    <h2>Recommended Courses</h2>
+                    <p>Courses matched with your career profile</p>
+                </div>
+
+            </div>
+
+
+            <div id="courses-list" class="courses-grid">
+
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        📚
+                    </div>
+
+                    <span class="course-type">
+                        Online Course
+                    </span>
+
+                    <h3>Python for Data Science</h3>
+
+                    <p>
+                        Build strong Python fundamentals for data science
+                        and machine learning.
+                    </p>
+
+                    <button class="secondary-btn"
+                            onclick="showCourseMessage()">
+                        View Course
+                    </button>
+
+                </div>
+
+
+                <div class="course-card">
+
+                    <div class="course-icon">
+                        🤖
+                    </div>
+
+                    <span class="course-type">
+                        Machine Learning
+                    </span>
+
+                    <h3>Machine Learning Fundamentals</h3>
+
+                    <p>
+                        Learn supervised and unsupervised machine learning.
+                    </p>
+
+                    <button class="secondary-btn"
+                            onclick="showCourseMessage()">
+                        View Course
+                    </button>
+                </div>
+
+
+                <div class="course-card">
+                    <div class="course-icon">
+                        📊
+                    </div>
+
+                    <span class="course-type">
+                        Data
+                    </span>
+                    <h3>Pandas & Data Analysis</h3>
+
+                    <p>
+                        Learn data processing and analysis using Pandas.
+                    </p>
+
+                    <button class="secondary-btn"
+                            onclick="showCourseMessage()">
+                        View Course
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+<!-- INTERNSHIPS -->
+
+<section id="internships" class="content-section">
+    <div class="section-heading">
+
+        <div>
+            <h2>Internship Opportunities</h2>
+            <p>Internships matched with your career profile</p>
+        </div>
+
+    </div>
+
+
+    <div id="internships-list" class="internships-grid">
+        <div class="internship-card">
+            <div class="internship-top">
+                <div class="company-icon">
+                    🏢
+                </div>
+
+                <span class="internship-badge">
+                    Eligible
+                </span>
+            </div>
+
+            <h3>AI / ML Internship</h3>
+
+            <p>
+                Practical experience in machine learning
+                and artificial intelligence.
+            </p>
+
+            <div class="internship-details">
+                <span>💼 Internship</span>
+                <span>🎓 CGPA Based</span>
+            </div>
+
+            <button class="secondary-btn"
+                    onclick="showInternshipMessage()">
+                View Opportunity
+            </button>
+        </div>
+
+
+        <div class="internship-card">
+            <div class="internship-top">
+
+                <div class="company-icon">
+                    🚀
+                </div>
+                <span class="internship-badge">
+                    Matched
+                </span>
+            </div>
+
+            <h3>Data Science Internship</h3>
+
+            <p>
+                Work with real-world datasets and
+                data analysis projects.
+            </p>
+
+            <div class="internship-details">
+
+                <span>📊 Data Science</span>
+                <span>🎓 CGPA Based</span>
+
+            </div>
+
+            <button class="secondary-btn"
+                    onclick="showInternshipMessage()">
+                View Opportunity
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="content-section">
+
+    <div class="section-heading">
+
+        <div>
+            <h2>Resume Analysis</h2>
+            <p>Analyze your resume readiness</p>
+        </div>
+
+    </div>
+
+
+    <div class="resume-card">
+        <div class="resume-score">
+            <span>Resume Score</span>
+            <strong class="resume-value">
+                0
+            </strong>
+            <small>
+                out of 100
+            </small>
+        </div>
+
+        <div class="resume-content">
+
+            <h3>Resume Improvement</h3>
+            <p>
+                Improve the following areas to make your profile
+                more employable.
+            </p>
+
+
+            <div id="resume-suggestions"
+                 class="suggestions-list">
+
+                <div class="suggestion">
+                    <span>✓</span>
+                    <p>Add relevant technical skills.</p>
+                </div>
+
+                <div class="suggestion">
+                    <span>✓</span>
+                    <p>Add more practical projects.</p>
+                </div>
+
+                <div class="suggestion">
+                    <span>✓</span>
+                    <p>Improve certifications and internships.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- READINESS -->
+<!-- READINESS -->
+<section id="readiness" class="content-section">
+
+    <div class="section-heading">
+
+        <div>
+            <h2>Career Readiness</h2>
+            <p>Measure your current employability level</p>
+        </div>
+
+    </div>
+
+
+    <div class="readiness-card">
+
+        <div class="readiness-score-container">
+
+            <span>Overall Readiness</span>
+
+            <div class="big-score readiness-score">
+                0%
+            </div>
+
+            <p>
+                Based on academics, skills, projects,
+                internship and career profile.
+            </p>
+
+        </div>
+
+
+        <div class="readiness-details">
+
+            <h3>Readiness Factors</h3>
+
+
+            <div class="progress-item">
+
+                <div class="progress-header">
+                    <span>Technical Skills</span>
+
+                    <strong class="technical-value">
+                        0%
+                    </strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill technical-progress"
+                         style="width:0%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="progress-item">
+
+                <div class="progress-header">
+                    <span>Projects</span>
+
+                    <strong class="projects-value">
+                        0
+                    </strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill projects-progress"
+                         style="width:0%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="progress-item">
+
+                <div class="progress-header">
+                    <span>Internship</span>
+
+                    <strong class="internship-value">
+                        0 months
+                    </strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill internship-progress"
+                         style="width:0%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="progress-item">
+
+                <div class="progress-header">
+                    <span>Resume</span>
+
+                    <strong class="resume-value">
+                        0
+                    </strong>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="progress-fill resume-progress"
+                         style="width:0%">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- AI READINESS PREDICTION -->
+            <div class="ai-readiness-card">
+
+                <div class="ai-readiness-header">
+
+                    <div>
+                        <h3>🤖 AI Readiness Prediction</h3>
+
+                        <p>
+                            Prediction generated using Machine Learning
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="ai-readiness-score">
+
+                    <span class="ml-readiness-value">
+                        0%
+                    </span>
+
+                </div>
+
+
+                <p class="ai-readiness-info">
+
+                    This prediction is generated using a
+                    Scikit-learn Linear Regression model based on
+                    academic performance, technical skills,
+                    projects, GitHub activity and internship experience.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+<!-- MOCK INTERVIEW -->
+<section id="interview" class="content-section">
+
+    <div class="section-heading">
+        <div>
+            <h2>AI Mock Interview</h2>
+            <p>
+                Practice interview questions and improve your answers
+            </p>
+        </div>
+    </div>
+
+    <div class="interview-card">
+
+        <div class="interview-header">
+
+            <div class="interview-icon">
+                🎤
+            </div>
+            <div>
+                <h3>Mock Interview</h3>
+                <p>
+                    Answer the question below as if you were
+                    attending a real interview.
+                </p>
+            </div>
+        </div>
+
+
+        <div id="interview-question"
+             class="interview-question">
+
+            Loading interview question...
+
+        </div>
+
+        <textarea
+            id="interview-answer"
+            class="interview-textarea"
+            placeholder="Type your answer here..."
+        ></textarea>
+
+
+        <button class="primary-btn"
+                onclick="submitInterview()">
+            Submit Answer →
+        </button>
+        <div id="interview-result"
+             class="interview-result">
+        </div>
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <p>
+        © 2026 Mera Future — AI-Powered Career Readiness &
+        Employability Platform
+    </p>
+
+    <span>
+        Built with Python • FastAPI • SQLite • HTML • CSS • JavaScript
+    </span>
+
+</footer>
+
+</main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
